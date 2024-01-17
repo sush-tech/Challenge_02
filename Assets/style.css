@@ -40,7 +40,10 @@ head{
     max-height:max-content;
     max-width: max-content;
     padding: 10px 10px;
-    background-color: gray;
+    background-color: teal;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   h3 {
@@ -76,9 +79,13 @@ head{
   .card p {
     text-align: center;
   }
-  
+
   .card img {
-    width: 50%;
+    width: 30%;
+    padding: 14px 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }  
   nav {
     display: flex;
